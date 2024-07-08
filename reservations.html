@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--The above two lines go into every html file. they declare the language and the programming language-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+
+    <!--This is the name that pops up in the little tab NOT ON THE ACTUAL SITE-->
+    <title>
+        Pacific Trails Resort :: Reservations
+    </title>
+
+    <h1>
+        <a href="index.html">Pacific Trails Resort</a>
+    </h1>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="activites.html">Activities</a></li>
+            <li><a href="yurts.html">Yurts</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+
+    </nav>
+
+    <div id="reshero">
+
+        <img src="coast.jpg" alt="coast">
+
+    </div>
+</head>
+
+<main>
+    <div id="wrapper">
+        <h2>
+            Reservations at Pacific Trails
+        </h2>
+    </div>
+
+    <h3>
+        Contact Us
+    </h3>
+
+    <p>Required Fields are marked with an asterisk*</p>
+
+    <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+
+        <label for="myFname">First Name: </label>
+        <input type="text" id="frame" name="myFname" required><br><br>
+        <label for="myLname">Last Name: </label>
+        <input type="text" id="frame" name="myLname" required><br><br>
+        <label for="myEmail">Email: </label>
+        <input type="text" id="frame" name="myEmail" required><br><br>
+        <label for="myPhone">Phone: </label>
+        <input type="text" id="frame" name="myPhone" required><br><br>
+        <label for="myDate">Arrival Date: </label>
+        <input type="date-picker" id="frame" name="myDate"><br><br>
+        <label for="myNights">Nights: </label>
+        <input type="spinner" id="frame" name="myNights" min="1" max="14"><br><br>
+        <label for="myComments">Comments: </label>
+        <textarea name="myComments" rows="2" cols="20" required></textarea>
+        <input name="mySubmit" type="submit" value="Submit">
+
+
+    </form>
+        
+
+</main>
+
+<footer>
+
+    Copyright 2020 Pacific Trails Resort Sophia Alexander salexander119@ivytech.edu
+
+</footer>
