@@ -55,7 +55,7 @@ nav li{
     padding-bottom: .5em;
     padding-left: 1em;
     padding-right: 1em;
-    border-bottom: solid, 1em;
+    border-bottom: solid 1em;
 }
 
 h2{
@@ -96,20 +96,20 @@ footer{
 
 table{
     align-self: center;
-    border: #3399CC, 1px;
+    border: #3399CC 1px;
     width: 90%;
     border-collapse: collapse;
 }
 
 td{
     padding: 5px;
-    border: #3399CC, 1px;
+    border: #3399CC 1px;
     text-align: center;
 }
 
 th{
     padding: 5px;
-    border: #3399CC, 1px;
+    border: #3399CC 1px;
 }
 
 text{
@@ -127,7 +127,7 @@ form{
     width: 60%;
     display: grid;
     gap: 1em;
-    columns: 2, width(10em, 1fr);
+    columns: 2 width(10em, 1fr);
 }
 
 submit_button{
@@ -176,9 +176,9 @@ trailhero{
 
 reshero{
     height: 300px;
-    background-image: image-set("ocean.jpg") ;
+    background: image-set("ocean.jpg");
     background-size: 100% 100%;
-    background-repeat: none;
+    background-repeat:no-repeat;
 }
 
 nav a{
@@ -200,7 +200,7 @@ section {
     }
 
     nav ul{
-        container:flex(row without wrap);
+        contain:flex(row without wrap);
         justify-content: space-around;
         padding-right: 2em;
     }
@@ -216,7 +216,7 @@ section {
     }
 
     flow {
-        container:flex(row);
+        contain:flex(row);
     }
 
     mobile-id{
@@ -242,7 +242,7 @@ section {
 }
 
 
-@media screen and (min-width: 1024x) {
+@media screen and (min-width: 1024px) {
     body{
         background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
     }
@@ -253,6 +253,6 @@ section {
     }
 
     #wrapper{
-        margin: center, width=80%;
+        margin:auto width=80%;
     }
 }

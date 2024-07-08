@@ -6,7 +6,7 @@
 <!--The above two lines go into every html file. they declare the language and the programming language-->
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
     <link rel="stylesheet" href="styles.css">
 
     <!--This is the name that pops up in the little tab NOT ON THE ACTUAL SITE-->
@@ -52,17 +52,17 @@
     <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
 
         <label for="myFname">First Name: </label>
-        <input type="text" id="frame" name="myFname" required><br><br>
+        <input type="text" name="myFname" required><br><br>
         <label for="myLname">Last Name: </label>
-        <input type="text" id="frame" name="myLname" required><br><br>
+        <input type="text" name="myLname" required><br><br>
         <label for="myEmail">Email: </label>
-        <input type="text" id="frame" name="myEmail" required><br><br>
+        <input type="text" name="myEmail" required><br><br>
         <label for="myPhone">Phone: </label>
-        <input type="text" id="frame" name="myPhone" required><br><br>
+        <input type="text" name="myPhone" required><br><br>
         <label for="myDate">Arrival Date: </label>
-        <input type="date-picker" id="frame" name="myDate"><br><br>
+        <input type="date" name="myDate"><br><br>
         <label for="myNights">Nights: </label>
-        <input type="spinner" id="frame" name="myNights" min="1" max="14"><br><br>
+        <input type="number" name="myNights" min="1" max="14" step="1"><br><br>
         <label for="myComments">Comments: </label>
         <textarea name="myComments" rows="2" cols="20" required></textarea>
         <input name="mySubmit" type="submit" value="Submit">
