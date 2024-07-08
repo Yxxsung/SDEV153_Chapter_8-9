@@ -94,6 +94,32 @@ footer{
     background-color: #FFFFFF;
 }
 
+table{
+    align-self: center;
+    border: #3399CC, 1px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+    border: #3399CC, 1px;
+    text-align: center;
+}
+
+th{
+    padding: 5px;
+    border: #3399CC, 1px;
+}
+
+text{
+    text-align: left;
+}
+
+:nth-child(2){
+    background-color: #DFEDF8;
+}
+
 mobile-id {
     display:inline;
 }
